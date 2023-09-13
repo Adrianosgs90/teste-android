@@ -4,7 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import model.Pessoa;
+
 public class MainActivity extends AppCompatActivity {
+
+    Pessoa pessoa;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
