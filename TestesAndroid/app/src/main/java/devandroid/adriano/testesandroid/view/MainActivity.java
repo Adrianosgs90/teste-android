@@ -1,15 +1,13 @@
-package devandroid.adriano.testesandroid;
+package devandroid.adriano.testesandroid.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import model.Pessoa;
+import devandroid.adriano.testesandroid.R;
+
 
 public class MainActivity extends AppCompatActivity {
-
-    Pessoa pessoa;
-
 
 
 
