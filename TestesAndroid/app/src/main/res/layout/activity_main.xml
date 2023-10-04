@@ -80,32 +80,33 @@
         app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTelefoContato"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.946" />
 
     <Button
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
+        android:layout_marginStart="24dp"
         android:layout_marginBottom="48dp"
         android:text="@string/txt_button_salva"
         app:layout_constraintBottom_toTopOf="@+id/btnFinalizar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toEndOf="@+id/btnLimpar"
         app:layout_constraintTop_toBottomOf="@+id/editTelefoContato"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.946" />
 
     <Button
         android:id="@+id/btnFinalizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="16sp"
         android:layout_marginBottom="140dp"
         android:text="@string/txt_button_finalizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTelefoContato" />
+        app:layout_constraintTop_toBottomOf="@+id/editTelefoContato"
+        app:layout_constraintVertical_bias="0.653" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

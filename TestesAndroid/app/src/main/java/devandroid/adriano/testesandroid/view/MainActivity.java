@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import devandroid.adriano.testesandroid.R;
+import devandroid.adriano.testesandroid.controller.PessoaController;
 import devandroid.adriano.testesandroid.model.Pessoa;
 
 
@@ -17,6 +18,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        PessoaController controller;
+
+        Pessoa pessoa;
+
+        
+
+
 
 
         pessoa = new Pessoa();
